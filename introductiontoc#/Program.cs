@@ -64,6 +64,35 @@ namespace introductiontoc_
             d *= 5; // 0
             d /= 5; // 0
             d %= 5; // 0
+
+            //String
+            string str1 = "This is C# Program xsdd_$#%";
+            string upperStr1 = str1.ToUpper(); // THIS IS C# PROGRAM XSDD_$#%
+            string lowerStr1 = str1.ToLower(); // this is c# program xsdd_$#%
+            string str2 = "Divyesh";
+            int index1 = str1.IndexOf("C#"); // 8
+            Console.WriteLine("The index Value of character 's' is " + index1); // The Index Value of character 's' is 5
+
+            //accessing values in a string
+            string value = "Dot Net Perls";
+            char first = value[0]; // 'D'
+            char second = value[1]; // 'o'
+            char last = value[value.Length - 1]; // 's'
+
+            // string substrings
+            string myStr = "Divyesh";
+            string test1 = myStr.Substring(2);
+
+            // string concatenation
+            string firstName = "Divyesh";
+            string lastName = "Wase";
+            string fullName = firstName + " " + lastName; // Divyesh Wase
+            Console.WriteLine(fullName);
+
+            // get the length of the string
+            string myString = "Dot Net Perls";
+            Console.WriteLine(myString.Length); // 13
+
         }
     }
 }
