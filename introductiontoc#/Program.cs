@@ -29,6 +29,18 @@ namespace introductiontoc_
              multi line comment
              */
 
+            // Arithmetic operators
+            int result;
+            result = 5 + 5; // 10
+            result = 5 - 5; // 0
+            result = 5 * 5; // 25
+            result = 5 / 5; // 1
+            result = 5 % 2; // 1
+
+            Console.WriteLine(result);
+
+
+
         }
     }
 }
