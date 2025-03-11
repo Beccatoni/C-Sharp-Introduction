@@ -39,7 +39,11 @@ namespace introductiontoc_
 
             Console.WriteLine(result);
 
-
+            // string interpolation
+            int id = 100;
+            // We can use an expression with a string interpolation.
+            string multipliedNumber = $"The multiplied ID is {id * 10}.";
+            Console.WriteLine(multipliedNumber);
 
         }
     }
