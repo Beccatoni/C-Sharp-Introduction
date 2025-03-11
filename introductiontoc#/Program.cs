@@ -78,6 +78,21 @@ namespace introductiontoc_
             char first = value[0]; // 'D'
             char second = value[1]; // 'o'
             char last = value[value.Length - 1]; // 's'
+
+            // string substrings
+            string myStr = "Divyesh";
+            string test1 = myStr.Substring(2);
+
+            // string concatenation
+            string firstName = "Divyesh";
+            string lastName = "Wase";
+            string fullName = firstName + " " + lastName; // Divyesh Wase
+            Console.WriteLine(fullName);
+
+            // get the length of the string
+            string myString = "Dot Net Perls";
+            Console.WriteLine(myString.Length); // 13
+
         }
     }
 }
