@@ -22,6 +22,13 @@ namespace introductiontoc_
             string bar = "How are you doing?";
             int x = 5;
             Console.WriteLine(foo);
+
+
+            //single line comment
+            /*
+             multi line comment
+             */
+
         }
     }
 }
