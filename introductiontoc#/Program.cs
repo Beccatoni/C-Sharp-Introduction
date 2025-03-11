@@ -44,6 +44,15 @@ namespace introductiontoc_
             // We can use an expression with a string interpolation.
             string multipliedNumber = $"The multiplied ID is {id * 10}.";
             Console.WriteLine(multipliedNumber);
+            // This code would output "The multiplied ID is 1000"
+
+
+            //Math methods
+            double p = -80;
+            double absValue = Math.Abs(p); // 80
+            double sqRoot = Math.Sqrt(absValue); // 8.94427190999916
+            double floored = Math.Floor(sqRoot); // 8
+            double smaller = Math.Min(p, sqRoot); // -80
 
         }
     }
