@@ -54,6 +54,16 @@ namespace introductiontoc_
             double floored = Math.Floor(sqRoot); // 8
             double smaller = Math.Min(p, sqRoot); // -80
 
+
+            // operator shortcuts
+            int d = 0;
+            d++; // 1
+            d--; // 0
+            d += 5; // 5
+            d -= 5; // 0    
+            d *= 5; // 0
+            d /= 5; // 0
+            d %= 5; // 0
         }
     }
 }
