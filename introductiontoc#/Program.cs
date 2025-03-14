@@ -93,6 +93,13 @@ namespace introductiontoc_
             string myString = "Dot Net Perls";
             Console.WriteLine(myString.Length); // 13
 
+            string[] characters =  { "Huey", "Dewey", "Louie" };
+            Console.WriteLine(string.Join(", ",characters)); 
+
+            //converting data types 
+            double positiveDouble = 5.5;
+            int positiveInt = (int)positiveDouble; // 5
+            Console.WriteLine(positiveInt);
         }
     }
 }
