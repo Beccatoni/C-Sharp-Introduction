@@ -122,6 +122,22 @@ namespace introductiontoc_
 
             double breakEvenVolume = fixedCosts / (salesPrice - variableCostPerUnit);
             Console.WriteLine(breakEvenVolume);
+
+
+            // declaring different variables with different data types 
+            // Number of pizza shops
+            int pizzaShops = 4332;
+
+            // Number of employees
+            int totalEmployees = 86928;
+
+            // Revenue
+            decimal revenue2 = 390819.28m;
+
+            // Log the values to the console:
+            Console.WriteLine(pizzaShops);
+            Console.WriteLine(totalEmployees);
+            Console.WriteLine(revenue2);
         }
     }
 }
