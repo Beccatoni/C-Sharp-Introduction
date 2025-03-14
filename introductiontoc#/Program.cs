@@ -100,6 +100,11 @@ namespace introductiontoc_
             double positiveDouble = 5.5;
             int positiveInt = (int)positiveDouble; // 5
             Console.WriteLine(positiveInt);
+
+            //string to int
+            Console.WriteLine("Enter your favorite number");
+            int favNumber = Convert.ToInt32(Console.ReadLine());
+
         }
     }
 }
