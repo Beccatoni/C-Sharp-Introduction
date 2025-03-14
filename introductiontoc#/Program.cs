@@ -178,6 +178,19 @@ namespace introductiontoc_
 
             // Print result to the console
             Console.WriteLine(steps);
+
+            // Starting variables 
+            int numberOne = 12932;
+            int numberTwo = -2828472;
+
+            // Use built-in methods and save to variable 
+            double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne));
+
+            // Use built-in methods and save to variable 
+            double numberTwoSqrt = Math.Floor(Math.Sqrt(Math.Abs(numberTwo)));
+
+            // Print the lowest number
+            Console.WriteLine(Math.Min(numberOneSqrt, numberTwoSqrt));
         }
     }
 }
