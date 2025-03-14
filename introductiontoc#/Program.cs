@@ -96,7 +96,7 @@ namespace introductiontoc_
             string[] characters =  { "Huey", "Dewey", "Louie" };
             Console.WriteLine(string.Join(", ",characters)); 
 
-            //converting data types 
+            //converting data types but here data is lost
             double positiveDouble = 5.5;
             int positiveInt = (int)positiveDouble; // 5
             Console.WriteLine(positiveInt);
