@@ -220,6 +220,21 @@ namespace introductiontoc_
                 Console.WriteLine("color is blue");
             }
 
+            //example two
+            double ph = 7;
+            if (ph < 7)
+            {
+                Console.WriteLine("Acidic");
+            }
+            else if (ph > 7)
+            {
+                Console.WriteLine("Basic");
+            }
+            else
+            {
+                Console.WriteLine("Neutral");
+            }
+
         }
     }
 }
