@@ -235,6 +235,85 @@ namespace introductiontoc_
                 Console.WriteLine("Neutral");
             }
 
+
+            //switch statement
+            int speed = 100;
+
+            switch (speed)
+            {
+                case < 25:
+                    // Executes if the value of speed is less than 25
+                    Console.WriteLine("Going slowly");
+                    break;
+                case 25:
+                    // Executes if the value of speed is equal to 25
+                    Console.WriteLine("Going at correct speed");
+                    break;
+                case < 30:
+                    // Executes if the value of speed is between 25 and 30
+                    Console.WriteLine("Going slightly too fast");
+                    break;
+                default:
+                    // The speed must be over 30 due to the above conditions
+                    Console.WriteLine("Going much too fast");
+                    break;
+            }
+
+            // Would print "Going much too fast"
+
+           
+
+
+            /*
+            if (ph < 7)
+            {
+              Console.WriteLine("Acidic");
+            }
+            else if (ph > 7)
+            {
+              Console.WriteLine("Basic");
+            }
+            else 
+            {
+              Console.WriteLine("Neutral");
+            }
+            */
+            switch (ph)
+            {
+                case <= 3:
+                    Console.WriteLine("Very Acidic");
+                    break;
+                case >= 11:
+                    Console.WriteLine("Very Basic");
+                    break;
+                case < 7:
+                    Console.WriteLine("Acidic");
+                    break;
+                case > 7:
+                    Console.WriteLine("Basic");
+                    break;
+                default:
+                    Console.WriteLine("Neutral");
+                    break;
+            }
+
+
+            //Arrays
+            // Initial declaration
+            int[] plantHeights;
+
+            // This will cause an error
+            // plantHeights = { 3, 4, 6 }; 
+
+            // This will work
+            plantHeights = new int[] { 3, 4, 6 };
+
+            string[] summerStrut;
+
+            summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles" };
+
+            int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
+            Console.WriteLine($"You rated the song {summerStrut[1]} {ratings[1]} stars");
         }
     }
 }
