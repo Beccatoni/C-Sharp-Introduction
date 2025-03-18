@@ -209,6 +209,17 @@ namespace introductiontoc_
             Console.WriteLine($"This scene is {storyLength} long.\n");
             Console.WriteLine($"The term we're looking for is {toFind} and is located at indec {findMarchHare}.");
             Console.ReadLine();
+
+
+            // conditionals
+            string color = "blue";
+
+            if (color == "blue")
+            {
+                // this will execute only if the value of color is equal to "blue"
+                Console.WriteLine("color is blue");
+            }
+
         }
     }
 }
