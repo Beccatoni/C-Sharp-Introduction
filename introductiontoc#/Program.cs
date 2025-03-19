@@ -330,6 +330,8 @@ namespace introductiontoc_
             Console.WriteLine($"Song number {indexOfthree + 1} is rated three stars");
             Array.Reverse(summerStrut);
             Console.WriteLine($"{summerStrut[0]} {summerStrut[7]}");
+            Array.Sort(summerStrut);
+            Console.WriteLine($"{summerStrut[0]} {summerStrut[7]}");
         }
     }
 }
