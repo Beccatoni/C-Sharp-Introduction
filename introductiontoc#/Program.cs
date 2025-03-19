@@ -324,6 +324,12 @@ namespace introductiontoc_
             int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
             summerStrut[7] = "Ushaka wese";
             ratings[7] = 5;
+
+            // array built-in methods
+            int indexOfthree = Array.IndexOf(ratings, 3);
+            Console.WriteLine($"Song number {indexOfthree + 1} is rated three stars");
+            Array.Reverse(summerStrut);
+            Console.WriteLine($"{summerStrut[0]} {summerStrut[7]}");
         }
     }
 }
