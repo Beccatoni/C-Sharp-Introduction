@@ -314,6 +314,16 @@ namespace introductiontoc_
 
             int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
             Console.WriteLine($"You rated the song {summerStrut[1]} {ratings[1]} stars");
+
+
+            //editing arrays
+            string[] summerStrut;
+
+            summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles" };
+
+            int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
+            summerStrut[7] = "Ushaka wese";
+            ratings[7] = 5;
         }
     }
 }
