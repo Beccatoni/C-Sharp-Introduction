@@ -317,11 +317,10 @@ namespace introductiontoc_
 
 
             //editing arrays
-            string[] summerStrut;
+       
 
             summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles" };
 
-            int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
             summerStrut[7] = "Ushaka wese";
             ratings[7] = 5;
 
@@ -368,6 +367,20 @@ namespace introductiontoc_
             {
                 Console.WriteLine(website);
             }
+
+
+            //jump statements
+            int alarmCount = 0;
+            do
+            {
+                Console.WriteLine("BLARRRRR");
+                alarmCount++;
+                if (alarmCount == 3)
+                {
+                    break;
+                }
+
+            } while (!buttonClick);
         }
 
         static void CreateTemplate(int week)
