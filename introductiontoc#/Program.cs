@@ -341,6 +341,13 @@ namespace introductiontoc_
                 emails--;
             }
             Console.WriteLine("INBOX ZERO ACHIEVED!");
+
+            // do...while loop
+            bool buttonClick = true;
+            do
+            {
+                Console.WriteLine("The Alarm is ringing");
+            } while (!buttonClick);
         }
     }
 }
