@@ -354,6 +354,14 @@ namespace introductiontoc_
             {
                 CreateTemplate(i);
             }
+
+
+            // foreach loop
+            string[] todo = { "respond to email", "make wireframe", "program feature", "fix bugs" };
+            foreach (string todoItem in todo)
+            {
+                Console.WriteLine($"[] {todoItem}");
+            }
         }
 
         static void CreateTemplate(int week)
