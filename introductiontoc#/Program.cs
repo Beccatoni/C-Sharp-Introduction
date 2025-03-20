@@ -207,7 +207,7 @@ namespace introductiontoc_
 
             Console.WriteLine(madTeaParty.Substring(findMarchHare));
             Console.WriteLine($"This scene is {storyLength} long.\n");
-            Console.WriteLine($"The term we're looking for is {toFind} and is located at indec {findMarchHare}.");
+            Console.WriteLine($"The term we're looking for is {toFind} and is located at index {findMarchHare}.");
             Console.ReadLine();
 
 
@@ -381,6 +381,7 @@ namespace introductiontoc_
                 }
 
             } while (!buttonClick);
+            Console.ReadLine();
         }
 
         static void CreateTemplate(int week)
