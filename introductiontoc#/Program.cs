@@ -332,6 +332,15 @@ namespace introductiontoc_
             Console.WriteLine($"{summerStrut[0]} {summerStrut[7]}");
             Array.Sort(summerStrut);
             Console.WriteLine($"{summerStrut[0]} {summerStrut[7]}");
+
+            //loops
+            int emails = 20;
+            while (emails > 0)
+            {
+                Console.WriteLine("The number emails is decreasing");
+                emails--;
+            }
+            Console.WriteLine("INBOX ZERO ACHIEVED!");
         }
     }
 }
