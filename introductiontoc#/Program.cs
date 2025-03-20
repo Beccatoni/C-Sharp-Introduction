@@ -362,6 +362,12 @@ namespace introductiontoc_
             {
                 Console.WriteLine($"[] {todoItem}");
             }
+
+            string[] websites = { "twitter", "facebook", "gmail" };
+            foreach (string website in websites)
+            {
+                Console.WriteLine(website);
+            }
         }
 
         static void CreateTemplate(int week)
