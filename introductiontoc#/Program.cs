@@ -396,7 +396,41 @@ namespace introductiontoc_
             Console.WriteLine(marathons.Contains(143.23));
             Console.WriteLine(marathons.Count);
 
-            Console.ReadLine();
+
+            List<string> citiesList = new List<string> { "Delhi", "Los Angeles", "Kyiv" };
+            bool success = citiesList.Remove("Delhi");  // success is true
+
+            Console.WriteLine(marathons[1]);
+            bool removed = marathons.Remove(143.12);
+            Console.WriteLine($"{marathons[1]}, {removed}");
+            citiesList.Clear();
+
+            List<double> topMarathons = marathons.GetRange(0, 3);
+            foreach (double marathon in topMarathons)
+            {
+                Console.WriteLine(marathon);
+                Console.WriteLine(citiesList.Count);
+
+            // working with ranges
+            List<string> places = new List<string> { "first", "second" };
+            plasces.AddRange(new string[] { "fifth", "sixth" });
+            places.InsertRange(2, new string[] { "third", "fourth" });
+            places.RemoveRange(4, 2);
+            List<string> newPlaces = places.GetRange(0, 3);
+
+
+
+                // methods 
+                // out parameters
+
+                int length = 5;
+                int width = 6;
+
+                CalculateRectangle(length, width, out int area, out int perimeter);
+                Console.WriteLine($"Area: {area}");//prints "Area: 30"
+                Console.WriteLine($"Perimeter: {perimeter}"); // prints "Perimeter: 22"
+
+                Console.ReadLine();
         }
 
         static void CreateTemplate(int week)
@@ -408,5 +442,11 @@ namespace introductiontoc_
             Console.WriteLine("Discussion Items: \n \n \n");
 
         }
+
+        static void CalculateRectangle(int length, int width, out int area, out int perimeter)
+            {
+                area = length * width;
+                perimeter = 2 * (length + width);
+            }
     }
 }
