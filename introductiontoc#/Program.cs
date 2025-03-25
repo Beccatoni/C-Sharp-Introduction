@@ -413,7 +413,7 @@ namespace introductiontoc_
 
             // working with ranges
             List<string> places = new List<string> { "first", "second" };
-            plasces.AddRange(new string[] { "fifth", "sixth" });
+            places.AddRange(new string[] { "fifth", "sixth" });
             places.InsertRange(2, new string[] { "third", "fourth" });
             places.RemoveRange(4, 2);
             List<string> newPlaces = places.GetRange(0, 3);
@@ -429,10 +429,14 @@ namespace introductiontoc_
                 CalculateRectangle(length, width, out int area, out int perimeter);
                 Console.WriteLine($"Area: {area}");//prints "Area: 30"
                 Console.WriteLine($"Perimeter: {perimeter}"); // prints "Perimeter: 22"
-
+                
+                // Classes and objects
+                Forest f = new Forest("Amazon");
+                Console.WriteLine(f.name);
+                
                 Console.ReadLine();
-        }
 
+        }
         static void CreateTemplate(int week)
         {
 
@@ -449,4 +453,5 @@ namespace introductiontoc_
                 perimeter = 2 * (length + width);
             }
     }
+}
 }
